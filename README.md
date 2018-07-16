@@ -43,4 +43,4 @@
 - 修改Config.plist的后三项，可以找寻白苹果的三码记录或者自己生成，等FACETIME和iMassage可以用了以后可以享受黑苹果了。
 
 ## 感谢
-- 感谢大神 [@gunslinger23](https://github.com/gunslinger23) 提供的源文件和黑苹果思路！
+- 感谢大神 [@gunslinger23](https://github.com/gunslinger23) 提供的源文件和黑苹果思路！
