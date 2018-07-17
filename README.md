@@ -14,9 +14,13 @@
 
 ## 准备工作
 - 8G以上U盘一个（最好空U盘）
-- 原生DMG文件或者带有Clover引导的DMG文件
+- 原生DMG文件或者带有Clover引导的DMG文件，[黑苹果乐园](https://imac.hk)
 - Win：`transMAC`
 - Mac：`InstallDiskCreator`
+
+#### Win下面-TransMac
+
+#### Mac下面-InstallDisk
 
 ## 黑苹果安装原理
 1. 用Win下的DMG或者苹果下的.app文件创作一个安装镜像（带EFI分区）
