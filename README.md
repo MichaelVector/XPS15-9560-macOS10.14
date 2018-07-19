@@ -12,10 +12,12 @@
 - 网卡：Broadcom DW1830 `原生Intel网卡在XPS无法驱动，只能更换`
 - 屏幕：1080P
 
-==========================================================================
+---
 
-![图片](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1531970630785&di=e00168e3e188320a5549de12fe7f6d9b&imgtype=0&src=http%3A%2F%2Feduoduo.qiniudn.com%2Fupload%2F20150401%2F50891427858476675.jpg%3FimageView2%2F2%2Fw%2F280%2Fh%2F280)
+![图片](https://picvector.oss-cn-zhangjiakou.aliyuncs.com/18-7-19/8801335.jpg?Expires=1531965549&OSSAccessKeyId=TMP.AQFJNqyWkDGokr88F34Pqrjuw2xGwHasl4P5Ybw4LBNTqElyGCoiLbneyFCJADAtAhUAslT9Ju82DUL4a1jOYjA8KomSDuICFAJbtRDbJNZS4rI9jRzF8B96eONw&Signature=sbCQuITxRqeP3AxgO3AvqVkpVKQ%3D
+)
 
+---
 ## 准备工作
 - 8G以上U盘一个（最好空U盘）
 - 原生DMG文件或者带有Clover引导的DMG文件，[黑苹果乐园](https://imac.hk)
