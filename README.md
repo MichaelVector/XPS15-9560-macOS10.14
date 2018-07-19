@@ -12,7 +12,7 @@
 - 网卡：Broadcom DW1830 `原生Intel网卡在XPS无法驱动，只能更换`
 - 屏幕：1080P
 
-![图片](/Users/michaelvector/Desktop/1.png)
+![图片](https://www.baidu.com/s?wd=今日新鲜事&tn=SE_Pclogo_6ysd4c7a&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pc)
 
 ## 准备工作
 - 8G以上U盘一个（最好空U盘）
