@@ -19,14 +19,13 @@
 
 ---
 ## 准备工作
-- 8G以上U盘一个（最好空U盘）
-- 原生DMG文件或者带有Clover引导的DMG文件，[黑苹果乐园](https://imac.hk)
-- Win：`transMAC`
-- Mac：`InstallDiskCreator`
+-  8G以上U盘一个（最好空U盘）
+- 原生DMG文件或者带有Clover引导的DMG文件
+[黑苹果乐园](https://imac.hk)
+[黑果小兵的部落阁](https://blog.daliansky.net)
 
-#### Win下面-TransMac
-
-#### Mac下面-InstallDisk
+- Win：**`transMAC`**
+- Mac：**`Etcher`**
 
 ## 黑苹果安装原理
 1. 用Win下的DMG或者苹果下的.app文件创作一个安装镜像（带EFI分区）
@@ -39,13 +38,13 @@
 > - 用EFI启动后，只要`KEXT`和`Config.plist`文件没有大问题就可以进黑苹果原版安装。
 ## 第一步：创作USB引导安装盘
 1. 下载好原生系统或者懒人包（带Clover）的镜像文件
-2. 用工具写入U盘
+2. 用相应的工具写入U盘
 
 ## 第二步：安装驱动和修改EFI
 - 将此Github里的`KEXT/Other`里的文件替换放入你的`/EFI/Clover/KEXT/Other`里面
 - 将其他文件也一并替换
 
-> - 替换好开机前请将`Bcrm`的两个驱动挪在外面，第一次安装会造成失败，困扰我很久，安装完以后在重新放回KEXT里面去。
+> - **替换好开机前请将`Bcrm`的两个驱动挪在外面，第一次安装会造成失败，困扰我很久，安装完以后在重新放回KEXT里面去。**
 > - 建议所有驱动都放在`Clover`中不要放在系统`E/L/S`下面，因为一旦因为放入的驱动有问题你没法进系统会造成无法开机。因为放在EFI中出现问题只需要进入EFI修改文件即可，方便以后升级系统或者更新驱动。并不会对系统本身造成影响。
 
 ## 第三步：重启继续安装黑苹果
