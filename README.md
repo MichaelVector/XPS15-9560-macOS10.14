@@ -14,7 +14,7 @@
 
 ---
 
-![图片](https://picvector.oss-cn-zhangjiakou.aliyuncs.com/18-7-19/8801335.jpg?Expires=1531965549&OSSAccessKeyId=TMP.AQFJNqyWkDGokr88F34Pqrjuw2xGwHasl4P5Ybw4LBNTqElyGCoiLbneyFCJADAtAhUAslT9Ju82DUL4a1jOYjA8KomSDuICFAJbtRDbJNZS4rI9jRzF8B96eONw&Signature=sbCQuITxRqeP3AxgO3AvqVkpVKQ%3D
+![图片](http://pc3g4hj86.bkt.clouddn.com/10.14%E6%A1%8C%E9%9D%A2.jpg
 )
 
 ---
@@ -49,6 +49,18 @@
 ## 第三步：重启继续安装黑苹果
 - 不要登陆自己的AppleID，因为是黑苹果，序列号和SM号都没有登记，登陆会造成AppleID被拉入黑名单。
 - 修改`Config.plist`的后三项，可以找寻白苹果的三码记录或者自己生成，等FACETIME和iMassage可以用了以后可以享受黑苹果了。
+
+### 关于此Clover
+
+加入了几个KEXT进行自定义需求，大家可以按照自己的意愿增减。
+
+- `DisableTurboBoost.kext` **禁用睿频驱动**
+因为黑苹果下不需要进行大型数据运算游戏之类，有部分兼容性或者是软件会造成100%的CPU负荷，尤其会自动开启睿频加速，造成无意义的CPU高转和高温。禁用后最高CPU到2.8GHz。不需要可以去掉。
+
+- `NoTouchID.kext` **禁用指纹ID**
+对于没有指纹解锁的机型加入这个驱动可以在输密码的时候不出现3秒卡顿。
+
+- 已删除plist文件三码苹果信息，大家需要可以自行生成或者找白果三码对应。
 
 ### 完善黑苹果
 
